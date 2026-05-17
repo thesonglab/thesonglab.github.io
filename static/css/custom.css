@@ -576,59 +576,154 @@ a:visited {
 }
 
 /* ============================================================
-   Responsive: stack on mobile
+   Responsive: tablet & smaller (≤ 991px)
+   The default desktop padding (8rem / 7rem) is too tight on
+   anything narrower than ~1100px, so we drop it well before
+   the phone breakpoint.
+   ============================================================ */
+
+@media (max-width: 991px) {
+  .nccn-section {
+    padding: 3.5rem 0 !important;
+  }
+
+  .nccn-section__inner {
+    padding: 0 3rem !important;
+  }
+}
+
+/* ============================================================
+   Responsive: stack on phone (≤ 768px)
    ============================================================ */
 
 @media (max-width: 768px) {
   /* Home */
   .nccn-showcase {
-    flex-direction: column;
+    flex-direction: column !important;
   }
 
   .nccn-showcase__left {
-    flex: none;
-    width: 100%;
-    padding: 2.5rem 2rem;
+    flex: none !important;
+    width: 100% !important;
+    padding: 2.5rem 1.5rem !important;
   }
 
   .nccn-acronym__word {
     font-size: clamp(2rem, 10vw, 3.2rem);
+    white-space: normal;
   }
 
   .nccn-showcase__right {
-    padding: 2rem 2rem;
+    padding: 2rem 1.5rem !important;
   }
 
   .nccn-showcase__content {
     max-width: 100%;
   }
 
-  /* Reduce section margins on mobile */
-  .nccn-section__inner {
-    padding: 0 1.5rem;
+  /* Inner pages: comfortable mobile padding */
+  .nccn-section {
+    padding: 2.5rem 0 !important;
   }
 
-  /* Team: stack photo above bio */
+  .nccn-section__inner {
+    padding: 0 1.25rem !important;
+  }
+
+  .nccn-section__title {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+  /* Team: stack photo ABOVE description on phone */
   .nccn-pi-card {
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 1.25rem !important;
   }
 
   .nccn-pi-card__photo {
-    flex: none;
+    flex: none !important;
+    width: 100% !important;
+    display: block;
+  }
+
+  .nccn-pi-card__photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .nccn-pi-card__bio {
     width: 100%;
-    display: flex;
-    justify-content: center;
   }
 
   /* Research: stack image below text */
   .nccn-research-theme--img {
-    flex-direction: column;
+    flex-direction: column !important;
+    gap: 1.25rem !important;
   }
 
   .nccn-research-img {
-    flex: none;
-    width: 100%;
+    flex: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .nccn-research-summary {
+    font-size: 1rem;
+    padding: 1rem 0;
+  }
+
+  /* Publications: prevent overflow on long author/title lines */
+  .nccn-pub-item {
+    font-size: 0.97rem;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  /* Join Us accordions: comfortable touch target */
+  .nccn-research-panel {
+    padding: 0.25rem 0 1.25rem 0;
+  }
+}
+
+/* ============================================================
+   Extra-small phones (≤ 480px)
+   ============================================================ */
+
+@media (max-width: 480px) {
+  .nccn-section__inner {
+    padding: 0 1rem !important;
+  }
+
+  .nccn-nav-logo {
+    height: 56px;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+
+  .nccn-pi-card__photo img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* ============================================================
+   Safety: never let any flex row force horizontal scroll on phones
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .nccn-pi-card,
+  .nccn-research-theme--img,
+  .nccn-section__inner {
     max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 }
