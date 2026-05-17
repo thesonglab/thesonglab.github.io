@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{ partial "head.html" . }}
+    {{ partial "head_custom.html" . }}
+    <link rel="icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+    {{ partial "header.html" . }}
+
+    {{ block "main" . }}{{ end }}
+
+    {{ partial "footer.html" . }}
+    {{ partial "base-foot.html" . }}
+</body>
+
+</html>

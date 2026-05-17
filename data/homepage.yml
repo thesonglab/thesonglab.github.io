@@ -1,0 +1,127 @@
+# Song Lab Homepage Content
+
+# head meta
+homepage:
+  head:
+    title: "Song Lab | Neuroscience Research"
+
+# showcase / hero (split-panel layout)
+showcase:
+  enable: true
+  # The four words of the acronym — each first letter is highlighted
+  acronym:
+    - letter: "N"
+      word: "aturalistic"
+    - letter: "C"
+      word: "ognitive"
+    - letter: "C"
+      word: "omputational"
+    - letter: "N"
+      word: "euroscience"
+  welcome: "Welcome to the Naturalistic Cognitive Computational Neuroscience Lab!"
+  description: >
+    Our lab operates under deep curiosity for the human beings, what makes us special and
+    what makes us who we are. We study mechanisms of the human brain, and how it gives rise
+    to cognition and behavior. We conduct functional magnetic resonance imaging and behavioral
+    experiments to examine brain activity in relation to behavior. We develop artificial neural
+    network models, simulating brain circuits and functions, to understand the brain's
+    computational principles.
+  launch: >
+    The lab is launching at the
+  launchLink:
+    text: "University of Texas at Austin"
+    URL: "https://liberalarts.utexas.edu/psychology/"
+  launchSuffix: ", in August 2026! Please visit"
+  joinLink:
+    text: "Join Us"
+    URL: "/contact/"
+  joinSuffix: " if you are interested in becoming the founding members of the lab."
+
+# about / research
+about:
+  enable: true
+  title: "Our Research"
+  content: '<p class="lead">
+    The Song Lab investigates the neural computations that support how we see, remember, and make
+    decisions. We are particularly interested in how different brain regions communicate and
+    coordinate to give rise to flexible, context-dependent behavior.
+    </p>
+    <p class="lead">
+    Our work integrates large-scale neural recordings, human neuroimaging (fMRI / EEG), and
+    computational models to bridge the gap between neural activity and cognition.
+    We welcome collaborations and are always looking for motivated students and postdocs.
+    </p>'
+  button:
+    icon: "icon-profile-fill"
+    btnText: "PI Profile"
+    URL: "#"   # update with link to PI page or CV
+
+  image:
+    x: "img/who-am-i/user-picture.png"
+    _2x: "img/who-am-i/user-picture@2x.png"
+
+# education — disabled
+education:
+  enable: false
+
+# team members (repurposed from "experience")
+experience:
+  enable: true
+  title: "Team"
+  description: "We are a collaborative team of researchers passionate about understanding the brain. Interested in joining? See the Contact section below."
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Join Us"
+    URL: "#contact"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Open Positions"
+    URL: "#contact"
+
+  items:
+    - title: "Hayoung Song"
+      company: "Principal Investigator"
+      duration: "Assistant Professor"
+
+    # Add more lab members below:
+    # - title: "Full Name"
+    #   company: "Role (e.g., PhD Student, Postdoc, Research Scientist)"
+    #   duration: "Joined [Year]"
+
+# client_and_work — disabled (replaced by custom Publications section below)
+client_and_work:
+  enable: false
+  title: "Publications"
+  clients: []
+  works: []
+
+# testimonial — disabled
+testimonial:
+  enable: false
+
+# contact / join us
+contact:
+  enable: true
+  title: "Join Us"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Your Message"
+  phone:
+    title: "Office"
+    number: "[Your office address or phone — update this]"
+  email:
+    title: "Email"
+    email: '<a href="mailto:skkujoon@gmail.com">skkujoon@gmail.com</a>'
+  address:
+    title: "Location"
+    address: "[Your Department]<br />[Your University], [City, State]"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter — disabled
+newsletter:
+  enable: false

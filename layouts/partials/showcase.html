@@ -1,0 +1,31 @@
+{{ if .Site.Data.homepage.showcase.enable }}
+{{ $sc := .Site.Data.homepage.showcase }}
+<section class="nccn-showcase">
+
+  <!-- Left panel: solid navy rectangle -->
+  <div class="nccn-showcase__left">
+    <div class="nccn-acronym">
+      {{ range $sc.acronym }}
+      <div class="nccn-acronym__word">
+        <span class="nccn-acronym__letter">{{ .letter }}</span><span class="nccn-acronym__rest">{{ .word }}</span>
+      </div>
+      {{ end }}
+    </div>
+    <p class="nccn-pi-name">PI. Hayoung Song</p>
+  </div>
+
+  <!-- Right panel: white background with description -->
+  <div class="nccn-showcase__right">
+    <div class="nccn-showcase__content">
+      <p class="nccn-welcome">{{ $sc.welcome }}</p>
+      <p class="nccn-description">{{ $sc.description }}</p>
+      <p class="nccn-launch">
+        {{ $sc.launch }}
+        <a href="{{ $sc.launchLink.URL }}" target="_blank" rel="noopener" class="nccn-link">{{ $sc.launchLink.text }}</a>{{ $sc.launchSuffix }}
+        <a href="{{ $sc.joinLink.URL }}" class="nccn-link">{{ $sc.joinLink.text }}</a>{{ $sc.joinSuffix }}
+      </p>
+    </div>
+  </div>
+
+</section>
+{{ end }}

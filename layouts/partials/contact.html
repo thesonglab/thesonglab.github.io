@@ -1,0 +1,117 @@
+<section id="contact" class="nccn-section nccn-section--alt">
+  <div class="nccn-section__inner">
+    <h2 class="nccn-section__title">Join Us</h2>
+
+    <p class="nccn-section__lead nccn-join-lead">
+      The lab is actively recruiting at all levels! <span class="nccn-join-normal">We welcome individuals with diverse backgrounds and unique research ideas. If you are interested in joining the lab, please contact Hayoung (hayoung@wustl.edu). Please send your CV, research statement (stating your past and current research, future research plans, and synergy with the lab's research), and contact for references.</span>
+    </p>
+    <p class="nccn-section__lead nccn-join-normal">
+      Other than physically joining the lab, we can always collaborate! Please let us know if there are ideas you'd like to explore with us.
+    </p>
+
+    <!-- Postdoctoral Researchers -->
+    <details class="nccn-research-accordion">
+      <summary class="nccn-research-summary">Postdoctoral Researchers</summary>
+      <div class="nccn-research-panel">
+        <p class="nccn-join-role__desc">This position is ideal for individuals who wish to develop and expand their independent research program in synergy with the lab's expertise. We expect postdocs to take on leadership roles within the lab.</p>
+        <p class="nccn-join-role__label">Ideal Qualifications:</p>
+        <ul class="nccn-join-list">
+          <li>PhD (or expected) in psychology, neuroscience, computer science, engineering, or related fields</li>
+          <li>Strong publication record and research program</li>
+          <li>Leadership, communication, and mentorship skills</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- PhD Students -->
+    <details class="nccn-research-accordion">
+      <summary class="nccn-research-summary">PhD Students</summary>
+      <div class="nccn-research-panel">
+        <p class="nccn-join-role__desc">We are recruiting students to join us in Fall 2027. We recruit from <a href="https://liberalarts.utexas.edu/psychology/" target="_blank" rel="noopener" class="nccn-link nccn-link--plain">Psychology</a> and <a href="https://inp.neuroscience.utexas.edu/" target="_blank" rel="noopener" class="nccn-link nccn-link--plain">Neuroscience</a> programs at UT Austin. We encourage interested applicants to reach out to the PI in advance and/or mention Hayoung's name in the application as potential advisor/collaborator.</p>
+
+        <p class="nccn-join-role__label">Ideal Qualifications:</p>
+        <ul class="nccn-join-list">
+          <li>Bachelor's (or expected) in psychology, neuroscience, computer science, engineering, or related fields</li>
+          <li>Programming skills</li>
+          <li>Research experience in related fields</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Lab Manager -->
+    <details class="nccn-research-accordion">
+      <summary class="nccn-research-summary">Lab Manager</summary>
+      <div class="nccn-research-panel">
+        <p class="nccn-join-role__desc">This position is ideal for individuals who are seeking to gain independent research experience prior to graduate school. Main responsibilities include running fMRI and behavioral experiments and managing lab activities and personnel.</p>
+
+        <p class="nccn-join-role__label">Ideal Qualifications:</p>
+        <ul class="nccn-join-list">
+          <li>Bachelor's (or expected) in psychology, neuroscience, computer science, engineering, or related fields</li>
+          <li>Strong communication and management skills</li>
+          <li>Research experience with human participants and/or fMRI</li>
+          <li>Programming skills</li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- Research Assistants -->
+    <details class="nccn-research-accordion">
+      <summary class="nccn-research-summary">Research Assistants</summary>
+      <div class="nccn-research-panel">
+        <p class="nccn-join-role__desc">We welcome motivated undergraduate and master's students from various programs to join the lab. We expect active involvement in research and lab activities. Because we are committed to providing ample research opportunities and mentorship to local students, we are unable to accommodate inquiries from outside UT Austin.</p>
+
+        <p class="nccn-join-role__label">Ideal Qualifications:</p>
+        <ul class="nccn-join-list">
+          <li>Motivated to learn, assist research, and conduct mentored research</li>
+          <li>For undergraduate students: Able to commit a minimum of 8 hours per week, with flexibility over the course of the semester</li>
+          <li>For master's students: Familiarity with programming and statistics; Background or coursework in related fields</li>
+        </ul>
+      </div>
+    </details>
+
+    <h2 class="nccn-section__title nccn-contact-title">Contact</h2>
+
+    <div class="nccn-contact-address">
+      <p class="nccn-section__lead nccn-join-normal">Hayoung Song (hayoung@wustl.edu)</p>
+      <p class="nccn-section__lead nccn-join-normal">Sarah M. and Charles E. Seay Building</p>
+      <p class="nccn-section__lead nccn-join-normal">108 E. Dean Keeton Street</p>
+      <p class="nccn-section__lead nccn-join-normal">Austin, TX 78712</p>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('#contact .nccn-research-accordion').forEach(details => {
+    const summary = details.querySelector('.nccn-research-summary');
+    const panel = details.querySelector('.nccn-research-panel');
+
+    summary.addEventListener('click', (e) => {
+      e.preventDefault();
+
+      if (details.open) {
+        panel.style.height = panel.scrollHeight + 'px';
+        panel.offsetHeight;
+        panel.style.height = '0';
+        panel.style.opacity = '0';
+        panel.addEventListener('transitionend', () => {
+          details.removeAttribute('open');
+          panel.style.height = '';
+          panel.style.opacity = '';
+        }, { once: true });
+      } else {
+        details.setAttribute('open', '');
+        panel.style.height = '0';
+        panel.style.opacity = '0';
+        panel.offsetHeight;
+        panel.style.height = panel.scrollHeight + 'px';
+        panel.style.opacity = '1';
+        panel.addEventListener('transitionend', (e) => {
+          if (e.propertyName === 'height') {
+            panel.style.height = '';
+          }
+        }, { once: true });
+      }
+    });
+  });
+</script>

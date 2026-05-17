@@ -1,0 +1,20 @@
+{{ if .Site.Data.publications.publications.enable }}
+{{ $pub := .Site.Data.publications.publications }}
+<section id="publications" class="nccn-section nccn-section--alt">
+  <div class="nccn-section__inner">
+    <h2 class="nccn-section__title">Publications</h2>
+    <p class="nccn-pub-note">* authors contributed equally</p>
+
+    {{ range $pub.years }}
+    {{ $year := .year }}
+    <h3 class="nccn-pub-year">{{ $year }}</h3>
+    <ul class="nccn-pub-list">
+      {{ range .papers }}
+      <li class="nccn-pub-item">{{ .authors }} ({{ $year }}). {{ .title }} <em>{{ .journal }}</em>{{ if .volume }}, {{ .volume }}{{ end }}.{{ if .link }} <a href="{{ .link }}" target="_blank" rel="noopener" class="nccn-pub-tag">[link]</a>{{ end }}{{ if .pdf }} <a href="{{ .pdf }}" target="_blank" rel="noopener" class="nccn-pub-tag">[pdf]</a>{{ end }}{{ if .data }} <a href="{{ .data }}" target="_blank" rel="noopener" class="nccn-pub-tag">[data]</a>{{ end }}{{ if .code }} <a href="{{ .code }}" target="_blank" rel="noopener" class="nccn-pub-tag">[code]</a>{{ end }}</li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+  </div>
+</section>
+{{ end }}

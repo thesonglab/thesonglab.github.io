@@ -1,0 +1,62 @@
+baseURL = 'https://thesonglab.github.io/'
+languageCode = 'en-us'
+title = 'Song Lab'
+theme = 'raditian'
+
+# CSS / JS plugins (required by the theme)
+[params.plugins]
+
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+# Navigation
+[menu]
+
+  [[menu.header]]
+  name = "Research"
+  URL = "/research/"
+  weight = 1
+
+  [[menu.header]]
+  name = "Team"
+  URL = "/team/"
+  weight = 2
+
+  [[menu.header]]
+  name = "Publications"
+  URL = "/publications/"
+  weight = 3
+
+  [[menu.header]]
+  name = "Join Us"
+  URL = "/joinus/"
+  weight = 4
+
+[params]
+  description = "Song Lab — Neuroscience Research"
+  author = "Hayoung Song"
+
+  # Homepage only shows the hero; other sections live on their own pages
+  sections = ["showcase"]
+
+  [params.logo]
+    text1 = "Song"
+    text2 = "Lab"
+
+  [params.footer]
+    copyright = "© Song Lab. All rights reserved."
+    [params.footer.radity_logo]
+      x = "img/general/design-and-code-radity.png"
+      _2x = "img/general/design-and-code-radity@2x.png"
+      alt = "Song Lab"
