@@ -580,6 +580,7 @@ a:visited {
    ============================================================ */
 
 @media (max-width: 768px) {
+  /* Home */
   .nccn-showcase {
     flex-direction: column;
   }
@@ -599,6 +600,35 @@ a:visited {
   }
 
   .nccn-showcase__content {
+    max-width: 100%;
+  }
+
+  /* Reduce section margins on mobile */
+  .nccn-section__inner {
+    padding: 0 1.5rem;
+  }
+
+  /* Team: stack photo above bio */
+  .nccn-pi-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nccn-pi-card__photo {
+    flex: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Research: stack image below text */
+  .nccn-research-theme--img {
+    flex-direction: column;
+  }
+
+  .nccn-research-img {
+    flex: none;
+    width: 100%;
     max-width: 100%;
   }
 }
