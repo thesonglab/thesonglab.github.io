@@ -34,7 +34,7 @@ showcase:
   launchSuffix: ", in August 2026! Please visit"
   joinLink:
     text: "Join Us"
-    URL: "/contact/"
+    URL: "/joinus/"
   joinSuffix: " if you are interested in becoming the founding members of the lab."
 
 # about / research
