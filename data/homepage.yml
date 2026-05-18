@@ -1,9 +1,8 @@
 # Song Lab Homepage Content
 
 # head meta
-homepage:
-  head:
-    title: "Song Lab | Neuroscience Research"
+head:
+  title: "Song Lab"
 
 # showcase / hero (split-panel layout)
 showcase:
