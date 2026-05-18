@@ -6,6 +6,13 @@ publications:
   years:
     - year: "2026"
       papers:
+        - authors: "Ke, J., Madhogarhia, R., Chun, M. M., Rosenberg, M. D., Leong, Y. C., Song, H."
+          title: "Neural dynamics of updating social impressions during movie watching."
+          journal: "bioRxiv"
+          link: "https://www.biorxiv.org/content/10.64898/2026.05.13.724907v1"
+          data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
+          code: "https://github.com/jinke828/socialaha"
+
         - authors: "Song, H., Chen, R., Botch, T. L., Braver, T. S., Rosenberg, M. D., Zacks, J. M., Ching, S."
           title: "Geometry of neural dynamics along the cortical attractor landscape reflects changes in attention."
           journal: "Nature Communications"
@@ -21,19 +28,6 @@ publications:
 
     - year: "2025"
       papers:
-        - authors: "Song, H., Lu, Q., Nguyen, T. T., Chen, J., Leong, Y. C., Rosenberg, M. D., Ching, S., Zacks, J. M."
-          title: "A neural network with episodic memory learns causal relationships between narrative events."
-          journal: "bioRxiv"
-          link: "https://www.biorxiv.org/content/10.1101/2025.09.01.673596v1"
-          code: "https://github.com/hyssong/memorymodel"
-
-        - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
-          title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
-          journal: "bioRxiv"
-          link: "https://www.biorxiv.org/content/10.1101/2025.03.12.642853v1"
-          data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
-          code: "https://github.com/hyssong/memoryaha"
-
         - authors: "Song, H.*, Park, J.*, Rosenberg, M. D."
           title: "Understanding cognitive processes across spatiotemporal scales of the brain."
           journal: "Trends in Cognitive Sciences"
@@ -41,12 +35,25 @@ publications:
           link: "https://doi.org/10.1016/j.tics.2024.09.009"
           pdf: "/files/SongParketal_2024_TiCS.pdf"
 
+        - authors: "Song, H., Lu, Q., Nguyen, T. T., Chen, J., Leong, Y. C., Rosenberg, M. D., Ching, S., Zacks, J. M."
+          title: "A neural network with episodic memory learns causal relationships between narrative events."
+          journal: "bioRxiv"
+          link: "https://www.biorxiv.org/content/10.1101/2025.09.01.673596v1"
+          code: "https://github.com/hyssong/memorymodel"
+
         - authors: "Ke, J., Song, H., Bai, Z., Rosenberg, M. D., Leong, Y. C."
           title: "Dynamic functional connectivity encodes generalizable representations of emotional arousal across individuals and situational contexts."
           journal: "PLOS Computational Biology"
           volume: "21 (4), e1012994"
           link: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012994"
           pdf: "/files/KeSongBaiRosenbergLeong_2025_PlosBio.pdf"
+
+        - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
+          title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
+          journal: "bioRxiv"
+          link: "https://www.biorxiv.org/content/10.1101/2025.03.12.642853v1"
+          data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
+          code: "https://github.com/hyssong/memoryaha"
 
         - authors: "Park, J., Song, H., Shim, W. M."
           title: "Hippocampal systems for event encoding and sequencing during ongoing narrative comprehension."
