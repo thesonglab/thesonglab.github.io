@@ -559,15 +559,39 @@ a:visited {
 
 .nccn-footer {
   padding: 1.5rem 2rem;
-  text-align: left;
   background-color: #fff;
   border-top: 1px solid #eee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
-.nccn-footer p {
+.nccn-footer__copy {
   font-size: 0.8rem;
   color: #888;
   margin: 0;
+}
+
+.nccn-footer__logo {
+  height: 40px;
+  width: auto;
+  display: block;
+  flex-shrink: 0;
+}
+
+/* Phone: stack so logo sits above (or below) the copyright comfortably */
+@media (max-width: 480px) {
+  .nccn-footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 0.75rem;
+  }
+
+  .nccn-footer__logo {
+    height: 36px;
+  }
 }
 
 /* Hide the theme's default footer background/nav if it leaks through */
