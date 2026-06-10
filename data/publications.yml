@@ -6,6 +6,13 @@ publications:
   years:
     - year: "2026"
       papers:
+        - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
+          title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
+          journal: "Nature Communications"
+          link: "https://www.nature.com/articles/s41467-026-73914-3"
+          data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
+          code: "https://github.com/hyssong/memoryaha"
+          
         - authors: "Ke, J., Madhogarhia, R., Chun, M. M., Rosenberg, M. D., Leong, Y. C., Song, H."
           title: "Neural dynamics of updating social impressions during movie watching."
           journal: "bioRxiv"
@@ -47,13 +54,6 @@ publications:
           volume: "21 (4), e1012994"
           link: "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012994"
           pdf: "/files/KeSongBaiRosenbergLeong_2025_PlosBio.pdf"
-
-        - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
-          title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
-          journal: "bioRxiv"
-          link: "https://www.biorxiv.org/content/10.1101/2025.03.12.642853v1"
-          data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
-          code: "https://github.com/hyssong/memoryaha"
 
         - authors: "Park, J., Song, H., Shim, W. M."
           title: "Hippocampal systems for event encoding and sequencing during ongoing narrative comprehension."
