@@ -9,6 +9,7 @@ publications:
         - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
           title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
           journal: "Nature Communications"
+          volume: "17, 7362"
           link: "https://www.nature.com/articles/s41467-026-73914-3"
           data: "https://openneuro.org/datasets/ds005658/versions/1.0.0"
           code: "https://github.com/hyssong/memoryaha"
