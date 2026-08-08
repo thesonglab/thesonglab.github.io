@@ -44,19 +44,19 @@ theme = 'raditian'
   weight = 4
 
 [params]
-  description = "Song Lab — Neuroscience Research"
+  description = "the brain lab — Neuroscience Research"
   author = "Hayoung Song"
 
   # Homepage only shows the hero; other sections live on their own pages
   sections = ["showcase"]
 
   [params.logo]
-    text1 = "Song"
-    text2 = "Lab"
+    text1 = "the"
+    text2 = "brain lab"
 
   [params.footer]
     copyright = "© Song Lab. All rights reserved."
     [params.footer.radity_logo]
       x = "img/general/design-and-code-radity.png"
       _2x = "img/general/design-and-code-radity@2x.png"
-      alt = "Song Lab"
+      alt = "the brain lab"

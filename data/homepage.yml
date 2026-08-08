@@ -1,4 +1,4 @@
-# Song Lab Homepage Content
+# the brain lab — Homepage Content
 
 # head meta
 head:
@@ -7,17 +7,9 @@ head:
 # showcase / hero (split-panel layout)
 showcase:
   enable: true
-  # The four words of the acronym — each first letter is highlighted
-  acronym:
-    - letter: "N"
-      word: "aturalistic"
-    - letter: "C"
-      word: "ognitive"
-    - letter: "C"
-      word: "omputational"
-    - letter: "N"
-      word: "euroscience"
-  welcome: "Welcome to the Naturalistic Cognitive Computational Neuroscience Lab!"
+  # Big wordmark shown top-left of the hero
+  wordmark: "thebrainlab"
+  welcome: "Welcome to the brain lab!"
   description: >
     Our lab operates under deep curiosity for the human beings, what makes us special and what makes us who we are. We study mechanisms of the human brain, and how neural systems and dynamics give rise to cognitive experiences. We conduct functional magnetic resonance imaging and behavioral experiments to examine brain activity in relation to behavior. We develop artificial neural network models, simulating brain circuits and functions, to understand the brain's computational principles.
   launch: >
