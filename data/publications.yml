@@ -45,9 +45,9 @@ publications:
           pdf: "/files/SongParketal_2024_TiCS.pdf"
 
         - authors: "Song, H., Lu, Q., Nguyen, T. T., Chen, J., Leong, Y. C., Rosenberg, M. D., Ching, S., Zacks, J. M."
-          title: "A neural network with episodic memory learns causal relationships between narrative events."
+          title: "A neural network with key-value episodic memory retrieves and organizes memories based on causal event structures."
           journal: "bioRxiv"
-          link: "https://www.biorxiv.org/content/10.1101/2025.09.01.673596v1"
+          link: "https://www.biorxiv.org/content/10.1101/2025.09.01.673596v2"
           code: "https://github.com/hyssong/memorymodel"
 
         - authors: "Ke, J., Song, H., Bai, Z., Rosenberg, M. D., Leong, Y. C."
