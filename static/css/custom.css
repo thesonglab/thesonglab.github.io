@@ -655,7 +655,8 @@ a:visited {
   }
 
   .nccn-wordmark {
-    font-size: clamp(3.75rem, 19vw, 5.75rem);
+    font-size: clamp(2rem, 11vw, 4.5rem);
+    white-space: nowrap;
   }
 
   .nccn-showcase__content {
