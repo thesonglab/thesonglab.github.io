@@ -9,7 +9,7 @@ showcase:
   enable: true
   # Big wordmark shown top-left of the hero
   wordmark: "thebrainlab"
-  welcome: "Welcome to the Brain Lab! We conduct naturalistic cognitive computational neuroscience research at UT Austin."
+  welcome: "Welcome to the Brain Lab!  We conduct Naturalistic Cognitive Computational Neuroscience research at UT Austin."
   description: >
     Our lab operates under deep curiosity for the human beings, what makes us special and what makes us who we are. We study mechanisms of the human brain, and how neural systems and dynamics give rise to cognitive experiences. We conduct functional magnetic resonance imaging and behavioral experiments to examine brain activity in relation to behavior. We develop artificial neural network models, simulating brain circuits and functions, to understand the brain's computational principles.
   launch: >
