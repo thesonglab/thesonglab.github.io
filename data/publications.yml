@@ -30,6 +30,11 @@ publications:
           pdf: "/files/Songetal_2026_natcommun.pdf"
           code: "https://github.com/hyssong/dynamicalsystems"
 
+        - authors: "Ke, J., Chamberlain, T. A., Song, H., Corriveau, A., Zhang, Z., Martinez, T., Sams, L., Chun, M. M., Leong, Y. C., Rosenberg, M. D."
+          title: "Ongoing thoughts at rest reflect functional brain organization and behavior."
+          journal: "Nature Human Behaviour"
+          link: "https://www.nature.com/articles/s41562-026-02563-9"
+
         - authors: "Chen, R., Song, H., Ching, S., Braver, T. S."
           title: "Task-induced topological and geometrical changes in whole-brain dynamics predict cognitive individual differences."
           journal: "bioRxiv"
@@ -63,11 +68,6 @@ publications:
           volume: "8, 954"
           link: "https://www.nature.com/articles/s42003-025-08377-1"
           pdf: "/files/ParkSongShim_2025_CommBio.pdf"
-
-        - authors: "Ke, J., Chamberlain, T. A., Song, H., Corriveau, A., Zhang, Z., Martinez, T., Sams, L., Chun, M. M., Leong, Y. C., Rosenberg, M. D."
-          title: "Ongoing thoughts at rest reflect functional brain organization and behavior."
-          journal: "bioRxiv"
-          link: "https://www.biorxiv.org/content/10.1101/2025.08.18.670664v1"
 
     - year: "2024"
       papers:
