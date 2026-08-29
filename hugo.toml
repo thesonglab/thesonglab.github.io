@@ -1,6 +1,6 @@
 baseURL = 'https://thesonglab.github.io/'
 languageCode = 'en-us'
-title = 'thebrainlab'
+title = 'Song Lab'
 theme = 'raditian'
 
 # CSS / JS plugins (required by the theme)
