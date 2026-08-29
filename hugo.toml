@@ -1,6 +1,6 @@
 baseURL = 'https://thesonglab.github.io/'
 languageCode = 'en-us'
-title = 'Song Lab'
+title = 'thebrainlab'
 theme = 'raditian'
 
 # CSS / JS plugins (required by the theme)
@@ -44,7 +44,7 @@ theme = 'raditian'
   weight = 4
 
 [params]
-  description = "the brain lab — Neuroscience Research"
+  description = "The Brain Lab at UT Austin"
   author = "Hayoung Song"
 
   # Homepage only shows the hero; other sections live on their own pages
