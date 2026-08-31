@@ -1,6 +1,6 @@
 baseURL = 'https://thesonglab.github.io/'
 languageCode = 'en-us'
-title = 'Song Lab'
+title = 'Song Lab | University of Texas at Austin'
 theme = 'raditian'
 
 # CSS / JS plugins (required by the theme)
