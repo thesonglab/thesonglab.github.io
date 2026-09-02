@@ -233,7 +233,7 @@ a:visited {
 
 .nccn-pi-card__photo img {
   width: 200px;
-  asepct-ratio: 4 / 5;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
