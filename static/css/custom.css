@@ -225,6 +225,7 @@ a:visited {
   display: flex;
   gap: 2.5rem;
   align-items: flex-start;
+  margin-bottom: 3rem;
 }
 
 .nccn-pi-card__photo {
