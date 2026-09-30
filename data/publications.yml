@@ -6,6 +6,13 @@ publications:
   years:
     - year: "2026"
       papers:
+        - authors: "Song, H., Park, J. J., Lu, Q., Vedovati, G., Rosenberg, M. D., Reagh, Z. M., Ching, S."
+          title: "A neural network that maintains and retrieves memories based on context."
+          journal: "arXiv"
+          volume: "17, 7362"
+          link: "https://arxiv.org/abs/2609.37791"
+          code: "https://github.com/hyssong/contextMod"
+          
         - authors: "Song, H., Ke, J., Madhogarhia, R., Leong, Y. C., Rosenberg, M. D."
           title: "Cortical reinstatement of causally related events sparks narrative insights by updating neural representation patterns."
           journal: "Nature Communications"
